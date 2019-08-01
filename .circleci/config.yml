@@ -32,5 +32,4 @@ jobs:
       - run: pwd
       - run: ls -l ~/repo
       - run: ls -l ./folder-test
-      - run: ls -l ./circleci
       - run: docker build -t icondelta ./folder-test
