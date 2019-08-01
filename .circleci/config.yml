@@ -20,7 +20,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: npm install --save node-sass
+      # - run: npm install --save node-sass
 
       - save_cache:
           paths:
@@ -30,3 +30,6 @@ jobs:
       # run tests!
       - run: ls -al
       - run: pwd
+      - run: ls -l ~/repo
+      - run: ls -l ./folder-test
+      - run: ls -l ./circleci
